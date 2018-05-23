@@ -4,6 +4,6 @@
         <field name="name">Accés Liste Employés</field>
     </record>
 <record model="ir.ui.menu" id="hr.menu_hr_root">
-            <field name="groups_id" eval="[(4, [ref('hr_access')])]"/>
+            <field name="groups_id" eval="[(6,0,[ref('hr_access')])]"/>
             </record>
 </odoo>
